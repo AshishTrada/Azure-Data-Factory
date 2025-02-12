@@ -40,10 +40,11 @@ The goal of this pipeline is to copy all CSV sales data files from a source cont
     - **Source**: Use the source dataset with parameters.
     - **Sink**: Organize the files in the `sink-container` using the hierarchy `year/month.csv`.
 
-##### Validation and Execution
+##### Result
 
-- Debug the pipeline.
-- Validate and run the pipeline to ensure all files are copied and organized correctly in the sink container.
+![Alt Text](project1/Picture1.png)
+
+![Alt Text](project1/sinkBLOB.png)
 
 ---
 
@@ -92,4 +93,7 @@ This pipeline transforms a sales dataset (`dataset.xlsx`) using Mapping Data Flo
    - **Sort Transformation**: Sort data for better organization.
    - **Sink Transformation**: Store the transformed data as a CSV file in the sink container.
 
+#### Result
+![Alt Text](project2/ADF_transformation.png)
 
+![Alt Text](project2/sinkBLOB.png)
