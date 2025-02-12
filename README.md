@@ -92,8 +92,4 @@ This pipeline transforms a sales dataset (`dataset.xlsx`) using Mapping Data Flo
    - **Sort Transformation**: Sort data for better organization.
    - **Sink Transformation**: Store the transformed data as a CSV file in the sink container.
 
-##### Validation and Execution
-
-- Debug and validate the pipeline.
-- Run the pipeline to generate the transformed and analyzed dataset.
 
